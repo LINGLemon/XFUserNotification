@@ -33,7 +33,7 @@
 /**
  *  显示通知
  */
-- (void)showUserNotificationTitle:(NSString *)title withSubTitle:(NSString *)subTitle withInformativeText:(NSString *)informativeText withContentImage:(NSImage *)contentImage;
+- (void)showUserNotificationWithTitle:(NSString *)title withSubTitle:(NSString *)subTitle withInformativeText:(NSString *)informativeText withContentImage:(NSImage *)contentImage;
 
 /**
  *  设置dock的红点数

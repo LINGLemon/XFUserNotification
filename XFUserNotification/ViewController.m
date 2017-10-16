@@ -25,7 +25,7 @@
 {
     static int i = 1;
     NSString *strTip = [NSString stringWithFormat:@"%d", i];
-    [[XFUserNotificationCenter sharedUserNotificationCenter] showUserNotificationTitle:@"test" withSubTitle:@"test1" withInformativeText:strTip withContentImage:[NSImage imageNamed:@"default_user"]];
+    [[XFUserNotificationCenter sharedUserNotificationCenter] showUserNotificationWithTitle:@"test" withSubTitle:@"test1" withInformativeText:strTip withContentImage:[NSImage imageNamed:@"default_user"]];
     i++;
 }
 

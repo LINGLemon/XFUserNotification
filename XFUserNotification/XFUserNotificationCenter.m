@@ -26,7 +26,7 @@ static XFUserNotificationCenter *_instance = nil;
     return _instance;
 }
 
-- (void)showUserNotificationTitle:(NSString *)title withSubTitle:(NSString *)subTitle withInformativeText:(NSString *)informativeText withContentImage:(NSImage *)contentImage
+- (void)showUserNotificationWithTitle:(NSString *)title withSubTitle:(NSString *)subTitle withInformativeText:(NSString *)informativeText withContentImage:(NSImage *)contentImage
 {
     NSUserNotification *notification = [[NSUserNotification alloc] init];
     [notification setTitle:title];
